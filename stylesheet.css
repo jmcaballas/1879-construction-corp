@@ -5,3 +5,7 @@
 .nav-wrapper .brand-logo img {
     height: 32px !important;
 }
+
+.services .card {
+    padding: 16px 0px;
+}
