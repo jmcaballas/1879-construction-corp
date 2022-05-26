@@ -88,13 +88,13 @@
         <div class="container">
             <div class="row">
                 <h4 class="center">Services</h4>
-                <div class="col s6 m3">
+                <div class="col s12 m3">
                     <div class="card-panel">
                         <i class="material-icons large blue-text text-darken-2">construction</i>
                         <h4>General Construction</h4>
                     </div>
                 </div>
-                <div class="col s6 m3">
+                <div class="col s12 m3">
                     <div class="card-panel">
                         <i class="material-icons large blue-text text-darken-2">foundation</i>
                         <h4>Architectural Finishing</h4>
@@ -121,7 +121,7 @@
         <div class="container">
             <div class="row">
                 <h4 class="center">Projects</h4>
-                <div class="col s6 m3">
+                <div class="col s12 m3">
                     <div class="card">
                         <div class="card-image">
                             <img src="img/architectural-finishing.jpg" alt="">
@@ -132,7 +132,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s6 m3">
+                <div class="col s12 m3">
                     <div class="card">
                         <div class="card-image">
                             <img src="img/architectural-finishing.jpg" alt="">
@@ -143,7 +143,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s6 m3">
+                <div class="col s12 m3">
                     <div class="card">
                         <div class="card-image">
                             <img src="img/architectural-finishing.jpg" alt="">
@@ -154,7 +154,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s6 m3">
+                <div class="col s12 m3">
                     <div class="card">
                         <div class="card-image">
                             <img src="img/architectural-finishing.jpg" alt="">
@@ -206,7 +206,11 @@
             height: 500,
             transition: 500,
             interval: 6000
-        })   
+        })
+        
+        // Collapsible
+        const collapsible = document.querySelectorAll('.collapsible');
+        M.Collapsible.init(collapsible, {});
     </script>
   </body>
 </html>
